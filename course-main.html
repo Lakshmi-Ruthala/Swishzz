@@ -1,0 +1,854 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Computing Services</title>
+  <!--Font Awesome cdn-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <!--Font Awesome cdn -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+  <!-- Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- css -->
+  <link rel="stylesheet" href="css/Azure.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="NavigationBar" class="container">
+        <img id="logo" src="https://www.swhizz.com/wp-content/uploads/2019/10/ss.png" alt="logo" />
+        <!-- <a class="navbar-brand" href="">Azure</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Home
+                    </a>
+
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        About Us
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Company Overview</a></li>
+                        <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Class Room Training</a></li>
+                        <li><a class="dropdown-item" href="#">Online Training</a></li>
+                        <li><a class="dropdown-item" href="#">Corporate Training</a></li>
+                        <li><a class="dropdown-item" href="#">Internship Program</a></li>
+                        <li><a class="dropdown-item" href="#">Career Building Program</a></li>
+                        <li><a class="dropdown-item" href="#">Placements</a></li>
+                        <li><a class="dropdown-item" href="#">OJT Program</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="courses.html" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Courses
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="course-main.html">Salesforce</a></li>
+                        <li><a class="dropdown-item" href="course-main.html">DevOps with AWS</a></li>
+                        <li><a class="dropdown-item" href="course-main.html">MuleSoft</a></li>
+                        <li><a class="dropdown-item" href="course-main.html">Python</a></li>
+                        <li><a class="dropdown-item" href="course-main.html">JAVA</a></li>
+                        <li><a class="dropdown-item" href="course-main.html">Data Science</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Internship
+                    </a>
+
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Register Now
+                    </a>
+
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="contact-us.html" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Contact Us
+                    </a>
+
+                </li>
+
+
+            </ul>
+
+        </div>
+        
+        <div class="" id="">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <button type="button" class="btn account "><b>Sign In</b></button>
+                </li>
+                <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Docs</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Support</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact Sales</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sign in</a>
+            </li> -->
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+  <div class="fullstack_cert" itemscope="" itemtype="https://schema.org/WPHeader">
+
+    <div class="home-slider">
+      <div class="slider-content ">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-12">
+              <h1 itemprop="description" class="white-text heading-1 wow fadeInUp animated animated"
+                style="visibility: visible;"><span class="block">Online And Classroom </span>
+                Full Stack Developer <br>Course Training </h1>
+              <ul>
+                <li class="wow fadeInDown animated animated" style="visibility: visible;">Get Certified at the Best Full
+                  Stack Training Institute. </li>
+                <li class="wow fadeInDown animated animated" style="visibility: visible;">Get trained by industry
+                  experts.</li>
+                <li class="wow fadeInDown animated animated" style="visibility: visible;">Full Stack Classroom and
+                  Online training.</li>
+                <li class="wow fadeInDown animated animated" style="visibility: visible;">20+ Real-time projects</li>
+              </ul>
+              <div class="train-col">
+                <div class="train-mid student-enroll wow fadeInRight animated animated" style="visibility: visible;">
+                  <strong>10000+</strong> Students Enrolled</div>
+                <div class="train-mid wow fadeInRight animated animated" style="visibility: visible;"><strong>4.7 <img
+                      src="https://www.digital-lync.com/images/rating.png" alt="Rating"> <em>(500)</em></strong> Ratings
+                </div>
+                <div class="train-mid duration fadeInRight animated"><strong>100 Hours</strong> Duration</div>
+              </div>
+              <div class="circ-btn greenbt"><a href="#" data-toggle="modal" data-target="#get_trained"
+                  class="fadeInUp animated">SCHEDULE ONLINE DEMO </a><a href="#" data-toggle="modal"
+                  data-target="#get_trained" class="fadeInUp animated">Contact Course Adviser</a></div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <div class="cource-prev">
+                <h4 class="wow fadeInDown animated animated" style="visibility: visible;">Course Preview</h4>
+                <div class="video_internal"> <a id="" class="video-play-button" data-target="#digitalmarket_video"
+                    data-toggle="modal"> <span></span> </a> <img
+                    src="https://www.digital-lync.com/images/fullstacdev.jpg" alt="Full Stack"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container relative">
+      <div class="roles-data">
+        <h5 class="">Roles for Full Stack Masters course</h5>
+        <ul class="">
+          <li>Full Stack Developer</li>
+          <li> Front End Developer </li>
+          <li> Backend Developer </li>
+          <li> UI Developer </li>
+          <li> Angular Developer </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cource_col">
+      <div class="container">
+        <h3 class="heading-3 wow fadeInUp animated animated mt-5" style="visibility: visible;">Course Overview</h3>
+        <div class="row mt-5">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <p style="text-align: justify;color: #7b7b7b;"> Digital Lync is the best environment for upskilling and skilling your
+              career.
+              I've joined for AWS training over here. The trainer was way too good! Explained everything with detailed
+              real time examples.
+              It has a very good infrastructure. One of the best AWS training institutes in Hyderabad in Hyderabad
+              Swhizz offers real-time hands on SALESFORCE training with the help of trained and experienced working
+              professional trainers. Swhizz offers best SALESFORCE online training in Hyderabad. The SALESFORCE online
+              trainings are self-paced and industry oriented.</p>
+
+            <p style="text-align: justify;color:#7b7b7b"> SALESFORCE is the fastest growing platform with top Customer Relationship
+              Management (CRM) service available in the industry making it the most valued technology in the global
+              market. By combining cloud computing and CRM service SALESFORCE created a technology that can store data,
+              access data and also analyse sales based on the data in the cloud, making it a top priority technology for
+              many companies in the global market.
+
+              In this tailored SALESFORCE training course, we make sure that each and every detail is coved and the
+              student is left with real-time hands on experience. We cover:</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
+            <img src="http://themes.potenzaglobalsolutions.com/html/guruma/images/about/03.jpg" alt=""
+              class="img-responsive" style="height: 45vh;
+      width: 85%;">
+          </div>
+        </div>
+      </div>
+
+      <section class="cards mb-4">
+        <div class="container">
+          <h3 class="heading-3 wow fadeInUp animated animated mt-5" style="visibility: visible;">Duration</h3>
+          <hr class="heading-hr">
+          <hr class="heading-hr1">
+          <div class="row mt-5">
+
+            <div class="col-lg-4">
+              <div class="" style="cursor:pointer;">
+               
+                <div class="card-v2__text-block course-content">
+                  <h3 class="card-v2__heading text-center">
+                    Online </h3>
+                  <p class="card-v2__description text-center">
+                    <span>The format is 40% theory, 60% Hands-on</span>
+                    <span>It is a 60 days program and extends up to 2 hrs each</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="" style="cursor:pointer;">
+               
+                <div class="card-v2__text-block course-content">
+                  <h3 class="card-v2__heading text-center">
+                    Corporate</h3>
+                  <p class="card-v2__description text-center">
+                    <span> The format is 40% theory, 60% Hands-on</span>
+                    <span>It is a 10 days program and extends up to 8 hrs each</span>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="" style="cursor:pointer;">
+              
+                <div class="card-v2__text-block course-content">
+                  <h3 class="card-v2__heading text-center">
+                    Classroom
+                  </h3>
+                  <p id="fa fa-university" class="card-v2__description text-center">
+                    <span>Private Classroom arranged on request and minimum attendees for batch is 5
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="curriculum">
+      <div class="container mt-5">
+        <h3 class="heading-3 wow fadeInUp animated animated" style="visibility: visible;">Course Curriculum</h3>
+        <h6 class="heading-4 text-center wow fadeInDown animated animated" style="visibility: visible;">It stretches
+          your mind, think better and create even better.</h6>
+        <div class="cource-mid">
+          <div class="accordion" id="accordion1">
+            <div class="curriculum_hed">Fundamentals of Web Programming</div>
+            <section class="mt-2">
+
+              <div class="accordion accordion-flush" id="faqlist">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1">
+                      <span class="number-count">1</span><span style="padding-left: 10%;"> Cloud Computing
+                        Introduction</span>
+                    </button>
+                  </h2>
+                  <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      <p><strong>Objective:</strong></p>
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Learn Developing
+                        Rich Web Pages using HTML5 </p>
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Convert PSDs to HTML5
+                        Source</p>
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Become A HTML5
+                        Developer </p>
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>To crack Any kind of
+                        HTML5 Interviews </p>
+                      <p><strong>Topics:</strong></p>
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Introduction to HTML
+                      </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Tags </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Attributes </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Editors </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Document
+                        Structure </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Headings </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Paragraphs </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Styles </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Comments </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Blocks, Classes,
+                        Ids </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Tables </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Lists </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Images </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Forms </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML File Paths </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>WebStorage </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Application Cache
+                      </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>GeoLocation </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Drag and Drop </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>WebWorkers </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Canvas </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Svg </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>GoogleMaps API </p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2">
+                      <span class="number-count">2</span><span style="padding-left: 10%;"> Environments &
+                        Identity</span>
+                    </button>
+                  </h2>
+                  <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      <p><strong>Objective:</strong></p>
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Learn Developing
+                        Rich Web Pages using HTML5 </p>
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Convert PSDs to HTML5
+                        Source</p>
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Become A HTML5
+                        Developer </p>
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>To crack Any kind of
+                        HTML5 Interviews </p>
+                      <p><strong>Topics:</strong></p>
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Introduction to HTML
+                      </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Tags </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Attributes </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Editors </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Document
+                        Structure </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Headings </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Paragraphs </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Styles </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Comments </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Blocks, Classes,
+                        Ids </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Tables </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Lists </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Images </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML Forms </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>HTML File Paths </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>WebStorage </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Application Cache
+                      </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>GeoLocation </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Drag and Drop </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>WebWorkers </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Canvas </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Svg </p>
+
+
+
+                      <p class="d-flex"><i class="fa fa-angle-double-right" aria-hidden="true"></i>GoogleMaps API </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3">
+                      <span class="number-count">3</span><span style="padding-left: 10%;"> Salesforce.com
+                        Overview</span>
+                    </button>
+                  </h2>
+                  <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC, making it over 2000 years old.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4">
+                      <span class="number-count">4</span><span style="padding-left: 10%;"> Data Modeling</span>
+                    </button>
+                  </h2>
+                  <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC, making it over 2000 years old.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5">
+                      <span class="number-count">5</span><span style="padding-left: 10%;"> Automation Process</span>
+                    </button>
+                  </h2>
+                  <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC, making it over 2000 years old.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6">
+                      <span class="number-count">6</span><span style="padding-left: 10%;"> User Management</span>
+                    </button>
+                  </h2>
+                  <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC, making it over 2000 years old.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-7">
+                      <span class="number-count">7</span><span style="padding-left: 10%;"> Business Management</span>
+                    </button>
+                  </h2>
+                  <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC, making it over 2000 years old.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-8">
+                      <span class="number-count">8</span><span style="padding-left: 10%;"> Data Management </span>
+                    </button>
+                  </h2>
+                  <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC, making it over 2000 years old.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-9">
+                      <span class="number-count">9</span><span style="padding-left: 10%;"> Data Security Management
+                      </span>
+                    </button>
+                  </h2>
+                  <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                    <div class="accordion-body">
+                      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                      classical Latin literature from 45 BC, making it over 2000 years old.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </strong>
+          </div><strong>
+
+
+
+
+
+
+
+
+
+          </strong>
+        </div>
+      </div>
+      </section>
+    </div>
+    <!-- footer -->
+    <footer id="Footer" class="footer-nav">
+      
+      <div class="row Azure-row mt-3">
+
+
+
+          <div class="col-lg-3">
+              <button id="Link-Head" class="btn text-heading6">Services</button>
+              <ul id="Column" class="footer-nav__column-links">
+               
+                  <li><a href="#">Class Room Training</a></li>
+                  <li class="Azure-footer-links"><a href="#">Online Training</a></li>
+                  <li class="Azure-footer-links"><a href="#">Corporate Training</a></li>
+                  <li class="Azure-footer-links"><a href="#">Internship Program</a></li>
+                  <li class="Azure-footer-links"><a href="#">Career Building Program</a></li>
+                  <li class="Azure-footer-links"><a href="#">Placements</a></li>
+                  <li class="Azure-footer-links"><a href="#">OJT Program</a></li>
+              </ul>
+          </div>
+
+          <div class="col-lg-3">
+              <button id="Link-Head" class="btn text-heading6">Courses</button>
+              <ul id="Column" class="footer-nav__column-links">
+                  <li><a href="course-main.html">Salesforce</a></li>
+                  <li class="Azure-footer-links"><a href="course-main.html">DevOps with AWS</a></li>
+                  <li class="Azure-footer-links"><a href="course-main.html">MuleSoft</a></li>
+                  <li class="Azure-footer-links"><a href="course-main.html">Python</a></li>
+                  <li class="Azure-footer-links"><a href="course-main.html">JAVA</a></li>
+                  <li class="Azure-footer-links"><a href="course-main.html">Data Science</a></li>
+                 
+                
+              </ul>
+          </div>
+          <div class="col-lg-3">
+              <button id="Link-Head" class="btn text-heading6">Quick Links</button>
+              <ul id="Column" class="footer-nav__column-links">
+                  <li><a href="">Home</a></li>
+                  <li class="Azure-footer-links"><a href="">About Us</a></li>
+                  <li class="Azure-footer-links"><a href="">Courses</a></li>
+                  <li class="Azure-footer-links"><a href="">Internship</a></li>
+                  <li class="Azure-footer-links"><a href="">Register Now</a></li>
+                  <li class="Azure-footer-links"><a href="">Contact Us</a></li>
+
+              </ul>
+          </div>
+          <div class="col-lg-3">
+              <button id="Link-Head" class="btn text-heading6">Contact Us</button>
+              <ul id="Column" class="footer-nav__column-links">
+                  <li><a href="">+91 9030 80 87 21</a></li>
+                  <li class="Azure-footer-links"><a href="">+91 9392 00 22 99</a></li>
+              </ul>
+              <div>
+              <button id="Link-Head" class="btn text-heading6">Email Us</button>
+              <ul id="Column" class="footer-nav__column-links">
+                  <li><a href="">info@swhizz.com </a></li>
+                  <li class="Azure-footer-links"><a href="">support@swhizz.com</a></li>
+                  <li class="Azure-footer-links"><a href="">projects@swhizz.com</a></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+
+        
+
+          <!-- <div class="col-lg-2">
+                              <button id="Link-Head" class="btn text-heading6">Cloud computing</button>
+                              <ul  id="Column" class="footer-nav__column-links">
+                                  <li><a href="">Learn about cloud computing</a></li>
+                                  <li class="Azure-footer-links"><a href="">What is the cloud?</a></li>
+                                  <li class="Azure-footer-links"><a href="">What are public, private, and hybrid clouds?</a></li>
+                                  <li class="Azure-footer-links"><a href="">What is PaaS?</a></li>
+                                  <li class="Azure-footer-links"><a href="">What is middleware?</a></li>
+                              </ul>
+                          </div> -->
+
+      </div>
+
+
+      <div class="container">
+          <div class="row">
+
+              <div id="footer-nav__actions" class="col-lg-2">
+                  <ul class="Azure-footer_social">
+                      <li id="twitter">
+                          <a href="">
+                              <svg aria-hidden="true" role="presentation" data-slug-id="twitter-icon"
+                                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                  <path
+                                      d="M20.23 5.74c0-.06 0 0 0 0A5.64 5.64 0 0022.3 3.3c.06-.07-.07-.13-.13-.13a5.3 5.3 0 01-2.39 1.03c-.2.07-.39.07-.58.07a4.37 4.37 0 00-3.22-1.36h-.07c-.77 0-1.48.2-2.13.58a4.2 4.2 0 00-1.67 1.68 4.3 4.3 0 00-.59 2.2c0 .38.07.7.13 1.1-.32 0-.58 0-.83-.07-.2 0-.33-.07-.52-.07-.07 0-.13 0-.2-.06-.51-.07-1.03-.2-1.54-.33-.2-.06-.32-.12-.52-.19-.2-.06-.45-.13-.64-.26a11.9 11.9 0 01-3.8-2.26L3 4.64c-.32-.32-.64-.64-.9-1.03a3.75 3.75 0 00-.58 1.61c-.07.26-.07.52-.07.78 0 .52.07 1.1.26 1.55.32.9.97 1.74 1.74 2.32-.06.07-.06.13-.06.2a4.14 4.14 0 01-1.94-.72c0 1.3.52 2.4 1.36 3.23.64.65 1.42 1.1 2.38 1.3-.38.12-.77.12-1.16.12-.32 0-.64 0-.9-.06a4.7 4.7 0 004.45 3.1h.2a11.13 11.13 0 01-6.58 2.12h-.07A12.7 12.7 0 0020.55 8.38v-.51-.39-.13a4.95 4.95 0 002.26-2.19c-.84.39-1.68.58-2.58.58z">
+                                  </path>
+                              </svg>
+                          </a>
+                      </li>
+                      <li id="insta">
+                          <a href="">
+                              <svg aria-hidden="true" role="presentation" data-slug-id="instagram-icon"
+                                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25">
+                                  <path
+                                      d="M11.94.34C8.7.34 8.3.36 7.02.42a8.73 8.73 0 00-2.9.55c-.79.31-1.45.72-2.12 1.39A5.89 5.89 0 00.63 4.48c-.3.77-.5 1.64-.56 2.92A85.55 85.55 0 000 12.34c0 3.26.01 3.67.07 4.95.06 1.28.26 2.15.56 2.92.3.78.71 1.45 1.37 2.12a5.85 5.85 0 002.12 1.38c.76.3 1.63.5 2.9.56 1.27.06 1.68.07 4.92.07 3.25 0 3.65 0 4.93-.07a8.73 8.73 0 002.9-.56c.78-.3 1.45-.71 2.11-1.38a5.89 5.89 0 001.38-2.12c.3-.77.5-1.64.55-2.92.06-1.28.08-1.69.08-4.95 0-3.25-.02-3.66-.08-4.94a8.84 8.84 0 00-.55-2.92 5.89 5.89 0 00-1.38-2.12A5.85 5.85 0 0019.77.97c-.76-.3-1.63-.5-2.9-.55a84.32 84.32 0 00-4.93-.08zm0 2.17c3.2 0 3.57 0 4.83.07 1.16.05 1.8.25 2.22.41.55.22.95.48 1.37.9.42.42.68.82.9 1.38.16.42.35 1.06.4 2.23.06 1.26.07 1.64.07 4.84s0 3.59-.07 4.85a6.67 6.67 0 01-.4 2.23c-.22.56-.48.96-.9 1.38a3.7 3.7 0 01-1.37.9c-.42.16-1.06.36-2.22.41a82.5 82.5 0 01-4.83.07 82.5 82.5 0 01-4.82-.07 6.58 6.58 0 01-2.22-.41 3.7 3.7 0 01-1.37-.9 3.72 3.72 0 01-.9-1.38 6.67 6.67 0 01-.4-2.23 83.68 83.68 0 01-.08-4.85c0-3.2.01-3.58.07-4.84.05-1.17.25-1.81.41-2.23.22-.56.48-.96.9-1.38a3.7 3.7 0 011.37-.9 6.58 6.58 0 012.22-.41 82.5 82.5 0 014.82-.07z">
+                                  </path>
+                                  <path
+                                      d="M11.94 16.34a4 4 0 01-3.98-4 3.99 3.99 0 113.98 4zm0-10.16a6.15 6.15 0 00-6.13 6.16c0 3.4 2.75 6.17 6.13 6.17a6.15 6.15 0 006.14-6.17c0-3.4-2.75-6.16-6.14-6.16zM19.75 5.94a1.44 1.44 0 11-2.87 0 1.44 1.44 0 012.87 0">
+                                  </path>
+                              </svg>
+                          </a>
+                      </li>
+                      <li id="linkedIn">
+                          <a href="">
+                              <svg aria-hidden="true" role="presentation" data-slug-id="linkedin-icon"
+                                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                  <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M2.63 1C1.73 1 1 1.7 1 2.58v18.84C1 22.3 1.73 23 2.63 23h18.74c.9 0 1.63-.7 1.63-1.58V2.58A1.6 1.6 0 0021.37 1H2.63zm5.04 8.48v9.94H4.35V9.48h3.32zm.22-3.07c0 .95-.72 1.72-1.88 1.72h-.02c-1.12 0-1.84-.77-1.84-1.72 0-.98.74-1.72 1.88-1.72s1.84.74 1.86 1.72zm4.94 13H9.51c0-.05.04-9 0-9.93h3.32v1.4a3.3 3.3 0 013-1.63c2.18 0 3.82 1.42 3.82 4.47v5.7h-3.32V14.1c0-1.33-.48-2.24-1.68-2.24-.92 0-1.47.61-1.71 1.2-.09.22-.1.51-.1.8v5.56zm-3.32 0z">
+                                  </path>
+                              </svg>
+                          </a>
+                      </li>
+                      <li id="youtube">
+                          <a href="">
+                              <svg aria-hidden="true" role="presentation" data-slug-id="youtube-icon"
+                                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                  <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M21.38 4.52a3.02 3.02 0 012.12 2.14c.5 1.9.5 5.85.5 5.85s0 3.94-.5 5.84a3.02 3.02 0 01-2.12 2.14C19.5 21 12 21 12 21s-7.5 0-9.38-.5A3.02 3.02 0 01.5 18.34C0 16.45 0 12.5 0 12.5s0-3.94.5-5.84a3.02 3.02 0 012.12-2.14C4.5 4 12 4 12 4s7.5 0 9.38.5zm-5.56 7.99l-6.27 3.58V8.92l6.27 3.59z">
+                                  </path>
+                              </svg>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div id="last-content" class="col-lg-9">
+                  <ul class="footer-content">
+
+
+                      <!-- <li>
+
+
+                          <button class="btn">Terms of use</button>
+                      </li>
+
+                      <li>
+                          <button class="btn">Contact us</button>
+                      </li>
+                      <li>
+                          <button class="btn">Feedback</button>
+                      </li> -->
+                      <li class="copyright">
+                          <span> All Copyright &copy; 2016 - 2020 Swhizz Technologies. All rights reserved.</span>
+                      </li>
+
+                  </ul>
+              </div>
+
+          </div>
+      </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"></script>
+  
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var header = document.getElementById("navbar");
+  var sticky = header.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  </script>
+  
+</body>
+
+</html>
