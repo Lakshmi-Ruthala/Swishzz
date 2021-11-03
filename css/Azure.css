@@ -1913,7 +1913,7 @@ color:#979797;
     height: 600px;
     border-radius: 100%;
     bottom: 0;
-    left: 34px;
+    right:-19px;
 }
 .contact-form {
     padding: 40px 30px 10px;
@@ -2110,6 +2110,13 @@ border: 1px solid #fff;
     background-color: #002b46;
     color: #fff;
     border: 1px solid #002b46;
+}
+.submit-btn2{
+    width: 100%;
+    padding: 11px 0;
+    color: #fff;
+    border-radius: 0;
+    font-size: 15px;
 }
 .heading-hr{
     width: 98px;
